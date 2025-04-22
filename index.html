@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<!-- PLease view ./Media/layout.png to understand this html structure  -->
+ 
+        <div class="top">
+            <h1 class="title">ETCH <br>A <br>SKETCH</h1>
+            <div class="main">
+                <div class="settings">
+                    <input type="color" id="colorPicker"> 
+                    <button id="singleColor" onclick="isRainbowMode = false , isErase= false" > Normal Mode </button>
+                    <button id="rainbow" onclick="isRainbowMode = true"> Rainbow Mode </button>
+                    <h1 id="rangeTitle"> 16 x 16</h1>
+                    <input type="range" id="slider" min="1" max="100" value="16" oninput="myGrid(value)">
+                    <button id="clearAll" onclick="clearAll()"> Clear </button>
+                    <button id="erase" onclick="isErase = true , isRainbowMode = false"> Erase </button>
+                </div>
+                <div class="container">
+                </div>
+            </div>
+        </div>    
+        <script src="script.js"></script>
+</body>
+
+</html>
