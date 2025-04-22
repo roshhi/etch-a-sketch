@@ -65,6 +65,7 @@ body{
 }
 #rangeTitle{
     color: white;
+    font-size: 3rem;
 }
 #slider {
     width: 200px;
