@@ -19,7 +19,7 @@
                     <button id="singleColor" onclick="isRainbowMode = false , isErase= false" > Normal Mode </button>
                     <button id="rainbow" onclick="isRainbowMode = true"> Rainbow Mode </button>
                     <h1 id="rangeTitle"> 16 x 16</h1>
-                    <input type="range" id="slider" min="1" max="100" value="16" oninput="myGrid(value)">
+                    <input id="slider" type="range" min="1" max="100" value="16" oninput="main(value)">
                     <button id="clearAll" onclick="clearAll()"> Clear </button>
                     <button id="erase" onclick="isErase = true , isRainbowMode = false"> Erase </button>
                 </div>
