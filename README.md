@@ -1,4 +1,5 @@
-# etch-a-sketch
-It is a coloring board on the computer. When you move your mouse, it draws! 
-You can even make it rainbow or erase with a click. Want to start over?
-Just press the reset button and surprise — clean again!
+# Etch-A-Sketch
+So as you know im diving deep in JS so instead of just following tutorials, i decided make this from scratch to get a really good grip on JS. (Thanks to TheOdinProject)
+Its basically a coloring board where when you move your mouse, it draws! 
+
+Wish me LUCK to complete the whole OdinProject :)
